@@ -1,1 +1,1 @@
-{"type": "tool", "name": "toolchain-xtensa-esp32s3", "version": "12.2.0+20230208", "spec": {"owner": "espressif", "id": null, "name": "toolchain-xtensa-esp32s3", "requirements": null, "uri": "file://framework/toolchain-xtensa-esp32s3.zip"}}
+{"type": "tool", "name": "toolchain-xtensa-esp32s3", "version": "12.2.0+20230208", "spec": {"owner": "espressif", "id": null, "name": "toolchain-xtensa-esp32s3", "requirements": null, "uri": "https://github.com/kubilaykerti/toolchain-xtensa-esp32s3.git"}}
