@@ -1,5 +1,5 @@
 # -*- python -*-
-# Copyright (C) 2009-2018 Free Software Foundation, Inc.
+# Copyright (C) 2009-2022 Free Software Foundation, Inc.
 
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -19,7 +19,7 @@ import gdb
 import os
 import os.path
 
-pythondir = '/builds/idf/crosstool-NG/builds/xtensa-esp32s3-elf/share/gcc-8.4.0/python'
+pythondir = '/builds/idf/crosstool-NG/builds/xtensa-esp32s3-elf/share/gcc-12.2.0/python'
 libdir = '/builds/idf/crosstool-NG/builds/xtensa-esp32s3-elf/xtensa-esp32s3-elf/lib'
 
 # This file might be loaded when there is no current objfile.  This

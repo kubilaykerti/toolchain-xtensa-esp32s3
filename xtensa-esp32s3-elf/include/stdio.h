@@ -5,7 +5,7 @@
  * Redistribution and use in source and binary forms are permitted
  * provided that the above copyright notice and this paragraph are
  * duplicated in all such forms and that any documentation,
- * advertising materials, and other materials related to such
+ * and/or other materials related to such
  * distribution and use acknowledge that the software was developed
  * by the University of California, Berkeley.  The name of the
  * University may not be used to endorse or promote products derived
@@ -614,10 +614,8 @@ FILE	*_funopen_r (struct _reent *, const void *__cookie,
 		int (*__closefn)(void *__cookie));
 # endif /* !__LARGE64_FILES */
 
-# define	fropen(__cookie, __fn) funopen(__cookie, __fn, (int (*)())0, \
-					       (fpos_t (*)())0, (int (*)())0)
-# define	fwopen(__cookie, __fn) funopen(__cookie, (int (*)())0, __fn, \
-					       (fpos_t (*)())0, (int (*)())0)
+# define	fropen(__cookie, __fn) funopen(__cookie, __fn, NULL, NULL, NULL)
+# define	fwopen(__cookie, __fn) funopen(__cookie, NULL, __fn, NULL, NULL)
 #endif /* __BSD_VISIBLE */
 
 #if __GNU_VISIBLE

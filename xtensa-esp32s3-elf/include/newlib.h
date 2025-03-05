@@ -95,7 +95,7 @@
 #define _RETARGETABLE_LOCKING 1
 
 /* Define to use type long for time_t.  */
-#define _WANT_USE_LONG_TIME_T 1
+/* #undef _WANT_USE_LONG_TIME_T */
 
 /*
  * Iconv encodings enabled ("to" direction)
